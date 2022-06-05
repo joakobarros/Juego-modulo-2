@@ -1,7 +1,7 @@
 {
 	"textures": [
 		{
-			"image": "plataforma1.png",
+			"image": "plataforma2.png",
 			"format": "RGBA8888",
 			"size": {
 				"w": 402,
@@ -10,7 +10,7 @@
 			"scale": 1,
 			"frames": [
 				{
-					"filename": "platform.png",
+					"filename": "plataforma.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -36,6 +36,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:8761b22afce46a8bf1c222c33c3cc3e9:62d592658bf78d20057cfc31466c1b8d:02892a7c9ae24fabe1f7dee845d78128$"
+		"smartupdate": "$TexturePacker:SmartUpdate:db36a463193edcfa9cf8203d4dda504a:15b2e538da384ebfaecd790e4a9448a2:3b7af345da27322af278cea3c8e72777$"
 	}
 }

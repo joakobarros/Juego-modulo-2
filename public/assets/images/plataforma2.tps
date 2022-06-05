@@ -136,7 +136,7 @@
             <key>json</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>fondo1.json</filename>
+                <filename>plataforma2.json</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -185,7 +185,7 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">sky.png</key>
+            <key type="filename">plataforma.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -194,16 +194,16 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>200,150,400,300</rect>
+                <rect>100,8,200,16</rect>
                 <key>scale9Paddings</key>
-                <rect>200,150,400,300</rect>
+                <rect>100,8,200,16</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>sky.png</filename>
+            <filename>plataforma.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

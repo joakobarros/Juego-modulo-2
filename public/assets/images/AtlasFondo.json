@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "AtlasFondo.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1202,
+				"h": 1919
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "fondo4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1200,
+						"h": 630
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1200,
+						"h": 630
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1200,
+						"h": 630
+					}
+				},
+				{
+					"filename": "fondo30.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1008,
+						"h": 642
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1008,
+						"h": 642
+					},
+					"frame": {
+						"x": 1,
+						"y": 633,
+						"w": 1008,
+						"h": 642
+					}
+				},
+				{
+					"filename": "fondo1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1008,
+						"h": 642
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1008,
+						"h": 641
+					},
+					"frame": {
+						"x": 1,
+						"y": 1277,
+						"w": 1008,
+						"h": 641
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:066d2d7681d4e2496574a037c84b6049:73bf6b8d55e4a0204e2478ed8c7462b7:2bb2f69525f98522f2fa5974a229ba84$"
+	}
+}

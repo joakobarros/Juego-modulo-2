@@ -136,7 +136,7 @@
             <key>json</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>fondo2.json</filename>
+                <filename>AtlasFondo.json</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -185,7 +185,8 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">../../../../../../../Downloads/fondo2.png</key>
+            <key type="filename">../../../../../../../Downloads/fondo1.png</key>
+            <key type="filename">../../../../../../../Downloads/fondo30.jpg</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -194,16 +195,33 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>175,102,350,203</rect>
+                <rect>252,161,504,321</rect>
                 <key>scale9Paddings</key>
-                <rect>175,102,350,203</rect>
+                <rect>252,161,504,321</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">../../../../../../../Downloads/fondo4.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>300,158,600,315</rect>
+                <key>scale9Paddings</key>
+                <rect>300,158,600,315</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>../../../../../../../Downloads/fondo2.png</filename>
+            <filename>../../../../../../../Downloads/fondo4.png</filename>
+            <filename>../../../../../../../Downloads/fondo1.png</filename>
+            <filename>../../../../../../../Downloads/fondo30.jpg</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
