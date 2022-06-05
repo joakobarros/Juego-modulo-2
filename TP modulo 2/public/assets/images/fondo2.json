@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "fondo2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 702,
+				"h": 408
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "fondo2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 700,
+						"h": 406
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 700,
+						"h": 406
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 700,
+						"h": 406
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:0d668129038c6b02248df84bd9743479:4bf68dd23bd0b26b6d30fc514b3c96c4:fb0ece70e1c00be92dcb733447fd0a33$"
+	}
+}

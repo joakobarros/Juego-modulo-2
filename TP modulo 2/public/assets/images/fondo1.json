@@ -1,0 +1,41 @@
+{
+	"textures": [
+		{
+			"image": "fondo1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 802,
+				"h": 602
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "sky.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 800,
+						"h": 600
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 800,
+						"h": 600
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 800,
+						"h": 600
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:9afe6ad4ee5ea58486a55d9539678900:968f38c0fb1faa05c825a041c8a4c942:c0012377dbc6fad99513a65a5457ecc2$"
+	}
+}
