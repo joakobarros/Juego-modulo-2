@@ -1,4 +1,3 @@
-// Declaracion de variables para esta escena
 var player;
 var stars;
 var bombs;
@@ -12,14 +11,18 @@ var scoreTimeText;
 var timedEvent;
 
 // Clase Play, donde se crean todos los sprites, el escenario del juego y se inicializa y actualiza toda la logica del juego.
-export class nivel1 extends Phaser.Scene {
+export class nivel3 extends Phaser.Scene {
   
   constructor() {
-    super("nivel1");
+    super("nivel3");
+  }
+
+  init(data) {
+    score = data.score;
   }
 
   preload() {
-    this.load.tilemapTiledJSON("map", "public/assets/tilemaps/Nivel1.json");
+    this.load.tilemapTiledJSON("map3", "public/assets/tilemaps/Nivel3.json");
     this.load.image("fondo", "public/assets/images/AtlasFondo.png");
     this.load.image("plataformas", "public/assets/images/plataforma2.png");
   }
@@ -48,7 +51,7 @@ export class nivel1 extends Phaser.Scene {
       loop: true 
     });
 
-    const map = this.make.tilemap({ key: "map" });
+    const map = this.make.tilemap({ key: "map3" });
     const tilesetBelow = map.addTilesetImage("AtlasFondo", "fondo");
     const tilesetPlatform = map.addTilesetImage("plataforma2","plataformas");
 
@@ -110,7 +113,7 @@ export class nivel1 extends Phaser.Scene {
       fill: "#FFFFFF",
     });
 
-    scoreText = this.add.text(30, 6, "score: 0", {
+    scoreText = this.add.text(30, 6, "score: " + score, {
       fontSize: "32px",
       fill: "#FFFFFF",
     });
@@ -125,7 +128,7 @@ export class nivel1 extends Phaser.Scene {
     this.physics.add.collider(player, bombs, this.hitBomb, null, this);
 
     gameOver = false;
-    score = 0;
+    
   }
 
   update() {
@@ -133,8 +136,12 @@ export class nivel1 extends Phaser.Scene {
       return;
     }
 
+
     if (cosos.countActive(true) === 0 && stars.countActive(true) === 0) { 
-      this.scene.start("nivel2", { score: score }); 
+        setTimeout(() => {
+            this.scene.start(
+              "victoria",{ score: score });
+          }, 1000);
     }
 
     if (cursors.left.isDown) {

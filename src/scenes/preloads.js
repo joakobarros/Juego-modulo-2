@@ -6,13 +6,14 @@ export class Preloads extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("sad_cow", "public/assets/images/sad_cow.png");
+    this.load.image("emoji", "public/assets/images/emoji.retry.png");
+    this.load.image("emojiWin", "public/assets/images/emoji.wiin.png");
     this.load.image("phaser_logo", "public/assets/images/phaser_logo.png");
-    this.load.image("mainmenu_fondo","public/assets/images/fondoMM.png");
+    this.load.image("fondoMM","public/assets/images/fondoMM.png");
     this.load.image("fondo", "public/assets/images/AtlasFondo.png");
-    this.load.image("plataforma", "public/assets/images/platafoma2.png");
-    this.load.image("estrella", "public/assets/images/star.png");
-    this.load.image("bomba", "public/assets/images/bomb.png");
+    this.load.image("plataforma", "public/assets/images/plataforma2.png");
+    this.load.image("estrella", "public/assets/images/estrella.png");
+    this.load.image("bomba", "public/assets/images/bomba.png");
     this.load.image("coso", "public/assets/images/coso.png");
     this.load.spritesheet("dude", "public/assets/images/dude.png", {
       frameWidth: 32,

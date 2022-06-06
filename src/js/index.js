@@ -2,6 +2,10 @@ import { Preloads } from "../scenes/preloads.js";
 import { MainMenu } from "../scenes/mainmenu.js";
 import { nivel1 } from "../scenes/nivel1.js";
 import { Retry } from "../scenes/retry.js";
+import { nivel2 } from "../scenes/nivel2.js";
+import { nivel3 } from "../scenes/nivel3.js";
+import { victoria } from "../scenes/victoria.js";
+
 
 var config = {
   type: Phaser.AUTO,
@@ -26,7 +30,7 @@ var config = {
       debug: false,
     },
   },
-  scene: [Preloads, MainMenu, nivel1, Retry], // Listado de todas las escenas del juego, en orden
+  scene: [Preloads, MainMenu, nivel1, nivel2, nivel3, Retry, victoria], // Listado de todas las escenas del juego, en orden
   // La primera escena es con la cual empieza el juego
 };
 

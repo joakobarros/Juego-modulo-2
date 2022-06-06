@@ -22,11 +22,11 @@ export class Retry extends Phaser.Scene {
         "fondoMM"
       )
       .setScale(1.1);
-    // Vaca triste
+ 
     this.add.image(
       this.cameras.main.centerX,
       this.cameras.main.centerY / 1.5,
-      "sad_cow"
+      "emoji"
     );
     // Texto que muestra el puntaje maximo alcanzado
     this.add
@@ -41,7 +41,7 @@ export class Retry extends Phaser.Scene {
     const boton = new Button(
       this.cameras.main.centerX,
       this.cameras.main.centerY + this.cameras.main.centerY / 3,
-      "Retry",
+      "Reintentar",
       this,
       () => {
         // Instrucción para pasar a la escena Play

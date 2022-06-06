@@ -13,7 +13,7 @@ export class MainMenu extends Phaser.Scene {
         this.add.image(this.cameras.main.centerX, this.cameras.main.centerY/1.5, 'phaser_logo');
 
         // Boton para comenzar a jugar
-        const boton = new Button(this.cameras.main.centerX, this.cameras.main.centerY + this.cameras.main.centerY/3, 'Play', this, () => {
+        const boton = new Button(this.cameras.main.centerX, this.cameras.main.centerY + this.cameras.main.centerY/3, 'Jugar', this, () => {
             // Instrucción para pasar a la escena Play
             this.scene.start("nivel1");
         });
